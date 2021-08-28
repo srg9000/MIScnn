@@ -24,7 +24,7 @@
 #-----------------------------------------------------#
 # External libraries
 import numpy as np
-from batchgenerators.dataloading import SingleThreadedAugmenter
+from batchgenerators.dataloading.single_threaded_augmenter import SingleThreadedAugmenter
 from batchgenerators.transforms import Compose
 from batchgenerators.transforms import MirrorTransform, SpatialTransform
 from batchgenerators.transforms import ContrastAugmentationTransform, GaussianNoiseTransform
